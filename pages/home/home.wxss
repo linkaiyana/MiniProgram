@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+.test {
+  color: red;
+  font-weight: bold;
+  background-color: #000;
+}
