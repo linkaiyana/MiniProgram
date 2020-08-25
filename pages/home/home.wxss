@@ -2,5 +2,5 @@
 .test {
   color: red;
   font-weight: bold;
-  background-color: #000;
+  background-color: blue;
 }

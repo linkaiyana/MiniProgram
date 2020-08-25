@@ -1,2 +1,12 @@
 <!--pages/home/home.wxml-->
 <text class="test">hello world</text>
+<!-- 小程序初体验 -->
+
+<!-- 1、使用wx:for -->
+<!-- 类似于v-for -->
+<view wx:for="{{students}}">{{item.name}}{{index}}</view>
+
+<!-- 2、绑定事件监听 -->
+<view>计数器:{{counter}}</view>
+<button size="mini" bindtap="increment">+</button>
+<button size="mini" bindtap="decrement">-</button>
